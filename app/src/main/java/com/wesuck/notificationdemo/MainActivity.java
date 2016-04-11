@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this);
         mBuilder.setContentText("Here is my first ever Notification!");
-        mBuilder.setContentTitle("My Notification");
+        mBuilder.setContentTitle("First Notification");
         mBuilder.setSmallIcon(android.R.drawable.sym_def_app_icon);
 
         Intent i = new Intent(this,SecondActivity.class);
